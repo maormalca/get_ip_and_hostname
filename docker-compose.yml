@@ -1,0 +1,7 @@
+version: '3'
+services:
+  flaskinfo:
+    build: .
+    container_name: congetinfo
+    ports:
+      - 8087:8087      
